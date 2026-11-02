@@ -1,0 +1,21 @@
+# Slipway runtime output
+*-progress.log
+*.runlog
+*-report.md
+*.picked
+
+# Safety gate output
+safety-scan-report.txt
+
+# Local secrets and env files (the real file lives outside git anyway)
+agent-env
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa
+id_ed25519
+
+# Scratch
+*.tmp
+.DS_Store

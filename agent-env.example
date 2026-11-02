@@ -1,0 +1,14 @@
+# Slipway agent environment (example shape).
+#
+# The real file lives OUTSIDE this repository, for example:
+#   ~/.config/slipway/agent-env
+#
+# Create it mode 0600:
+#   install -m 600 agent-env.example ~/.config/slipway/agent-env
+#   chmod 700 ~/.config/slipway
+#
+# Fill in real values there. Never commit the real file.
+# The runner checks these keys by name and never prints their values.
+
+DEEPSEEK_API_KEY=
+OPENCODE_SERVER_PASSWORD=
